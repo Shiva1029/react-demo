@@ -6,11 +6,11 @@
 * SASS
 * Babel Cli
 * Hot Module Reloading
-* Jest 21 
+* Jest 22
 * Enzyme 3 for testing
 
 ### To run
-Make sure you have node, npm and jest installed globally and accessible through the command line.
+Make sure you have git, node and npm installed globally and accessible through the command line.
 * Then install the dependencies:
 
 ```
@@ -105,3 +105,11 @@ To run linting, run:
 ```
 npm run lint
 ```
+
+To fix
+
+```
+npm run lint:fix
+```
+
+[Github Page](https://shiva1029.github.io/react-demo/)
