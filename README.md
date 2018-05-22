@@ -11,6 +11,14 @@
 
 ### To run
 Make sure you have git, node and npm installed globally and accessible through the command line.
+
+* Clone
+
+```
+git clone https://github.com/Shiva1029/react-demo.git
+cd react-demo
+```
+
 * Then install the dependencies:
 
 ```
