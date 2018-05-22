@@ -121,3 +121,5 @@ server {
 }
 ```
 [Github Page](https://shiva1029.github.io/react-demo/)
+
+* Works on latest versions of IE, Edge, Chrome, Firefox and Safari.
