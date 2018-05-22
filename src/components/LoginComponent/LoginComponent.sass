@@ -1,0 +1,102 @@
+.title
+  margin-bottom: 4rem
+
+@include breakpoint(mobile-portrait)
+  .container
+    display: flex
+    flex-direction: column
+    text-align: center
+    width: 95%
+    max-width: 650px
+    margin: 2rem auto
+    background: $white
+    padding: 1rem
+    height: 550px
+
+@include breakpoint(tablet)
+  .container
+    width: 60%
+
+@include breakpoint(desktop)
+  .container
+    width: 40%
+
+.spinnerContainer
+  margin: 1rem 50%
+  position: relative
+  left: -50px
+
+.errorMessage
+  color: $red
+  flex-basis: 95%
+
+.button
+  background-color: $blue-light
+  border: none
+  font-size: $medium
+  color: $white
+  width: 140px
+  height: 40px
+  box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12)
+  cursor: pointer
+
+  &:hover, &:focus, &:active, &:target
+    outline: none
+    background-color: $blue
+
+.disabled
+  cursor: not-allowed
+  background: $blue-light
+  &:hover, &:focus, &:active, &:target
+    background: $blue-light
+
+.group
+  position: relative
+  margin-bottom: 3rem
+  flex-basis: 95%
+
+.input
+  padding: 1rem
+  display: block
+  font-size: $medium
+  width: 100%
+  border: none
+  border-bottom: 1px solid #757575
+  &:focus
+    outline: none
+
+/* LABEL =======================================
+
+.label
+  font-weight: normal
+  position: absolute
+  pointer-events: none
+  left: 5px
+  transition: 0.2s ease all
+  top: -20px
+  font-size: 14px
+  color: #5264AE
+
+
+/* BOTTOM BARS =================================
+
+.bar
+  position: relative
+  display: block
+  width: 100%
+  &:before, &:after
+    content: ''
+    height: 2px
+    width: 0
+    bottom: 1px
+    position: absolute
+    background: #5264AE
+    transition: 0.2s ease all
+  &:before
+    left: 50%
+  &:after
+    right: 50%
+
+input:focus ~ .bar
+  &:before, &:after
+    width: 50%
