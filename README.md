@@ -76,6 +76,22 @@ npm run build
 ```
 npm run serve:build
 ```
+Open the web browser to `http://localhost:8080/`
+
+### Eslint
+There is a `.eslint.rc` config for eslint ready with React plugin.
+
+To run linting, run:
+
+```
+npm run lint
+```
+
+To fix
+
+```
+npm run lint:fix
+```
 
 ### Nginx Config
 
@@ -104,20 +120,4 @@ server {
 	}
 }
 ```
-
-### Eslint
-There is a `.eslint.rc` config for eslint ready with React plugin.
-
-To run linting, run:
-
-```
-npm run lint
-```
-
-To fix
-
-```
-npm run lint:fix
-```
-
 [Github Page](https://shiva1029.github.io/react-demo/)
