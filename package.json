@@ -13,11 +13,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ReactJSResources/react-webpack-babel"
+    "url": "https://github.com/Shiva1029/react-demo/"
   },
-  "author": "ReactJSResources",
+  "author": "Shiva1029,
   "license": "MIT",
-  "homepage": "https://github.com/ReactJSResources/react-webpack-babel#readme",
+  "homepage": "https://shiva1029.github.io/react-demo/",
   "dependencies": {
     "axios": "^0.18.0",
     "babel-polyfill": "6.26.0",
